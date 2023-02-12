@@ -1,0 +1,1 @@
+Lenguaje superconjunto de javascript, desarrollado por microsoft. Provee tipos, es decir, le da fortaleza de tipeado a javascript.
