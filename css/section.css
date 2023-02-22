@@ -1,3 +1,7 @@
+/* Las condicionales para fontsize y demás, se encuentran en bootstrap:
+  Contenido  --> Reboot   
+*/
+
 :root {
     --border-boton: #0D0D0D;
     --color-texto-boton: #0D0D0D;
@@ -17,3 +21,16 @@
     border: solid 1.4px var(--border-boton);
     color: var(--border-boton);
 } 
+
+
+
+/* // `sm` se aplica a dispositivos x-small (teléfonos verticales, menos de 576px) */
+@media (max-width: 575.98px) { 
+    img {
+        
+        width: 100%;
+    }
+}
+
+/* // `md` se aplica a dispositivos small (teléfonos horizontales, menos de 768px) */
+@media (max-width: 767.98px) {  }
