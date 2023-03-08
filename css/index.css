@@ -1,3 +1,20 @@
+
+
+
+
+
 @import 'bienvenida.css';
 @import 'section.css';
 @import 'body.css';
+@import 'img.css';
+@import 'nav.css';
+
+ :root {
+    --border-boton: #0D0D0D;
+    --color-texto-boton: #0D0D0D;
+    --background-boton: #F2F2F2;
+    --boton-onClick-color: #F5B0BF;
+    --fuenteTitulos: 'Roboto', sans-serif,  500 ;
+    --fuente-subTitulos: 'Roboto', sans-serif;
+    --backgroundColor-lilaSuave: #E4C0F9;
+} 

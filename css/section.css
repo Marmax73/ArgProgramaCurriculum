@@ -2,35 +2,130 @@
   Contenido  --> Reboot   
 */
 
-:root {
+/* :root {
     --border-boton: #0D0D0D;
     --color-texto-boton: #0D0D0D;
-    --baclground-boton: #F2F2F2;
+    --background-boton: #F2F2F2;
+    --boton-onClick-color: #F5B0BF;
+    --fuenteTitulos: 'Roboto', sans-serif,  500 ;
+    --fuente-subTitulos: 'Roboto', sans-serif;
+    --backgroundColor-lilaSuave: #F2F2F2;
+} */
+
+
+
+#infoContainer {
+    display: inline-block;
+    border: solid 2px blue;
 }
 
-.datosPersonales {
-    margin-top: 3em;
-    background-color: var(--baclground-boton);
-    padding: 30px;
+.p-2 {
+    padding: 20px;
+    
     justify-content: center;
+    border: solid 1px green;
+    height: 30vh;
 }
+.p-2 h5 p {
+    box-sizing: content-box;
+}
+.container-fluid {
+    box-sizing: content-box;
+}
+
 
 /* Botones de la sección */
-.btn {
-    background-color: var(--baclground-boton);
-    border: solid 1.4px var(--border-boton);
-    color: var(--border-boton);
-} 
 
 
 
-/* // `sm` se aplica a dispositivos x-small (teléfonos verticales, menos de 576px) */
-@media (max-width: 575.98px) { 
-    img {
-        
-        width: 100%;
-    }
+
+
+/* Aria espanded mia */
+h2 {
+    padding: 200px 0 40px 0;
+    
+    text-align: center;
 }
 
+.list__show{
+    height: 0;
+    border: solid 1px yellow;
+    list-style: none;
+    font-size: 0;
+}
+/* .list__show__visible{
+    height: 50;
+    padding: 6px;
+    background-color: antiquewhite;
+} */
+
+/* .hidden{
+    display: none;
+} */
+.colorBg{
+    background-color: aqua;
+}
+
+
+
 /* // `md` se aplica a dispositivos small (teléfonos horizontales, menos de 768px) */
-@media (max-width: 767.98px) {  }
+@media (max-width: 767.98px) { 
+    main {
+        width: 100%;
+        height: auto;
+        
+    }
+    p{
+        font-size: 11px;
+    }
+
+ }
+ 
+ @media (max-width: 575.98px) { 
+    main{
+        width: 100%;
+        font-size: 11px;
+    }
+    #elena{
+      margin: 0;
+      width: 100%;
+    }
+    #infoContainer{
+        display: block;
+    }
+ }
+
+/* ------------------------------------------------------- */
+ /* Media Min width */
+
+ @media (min-width: 768px) {
+    #elena{
+        max-width: 50%;
+        
+    }
+    .p-2{
+        justify-content: center;
+    }
+    .p-2,h5{
+        margin-top: 1em;
+    }
+    main{
+        width: 100%;
+    }
+    body{
+        background-color: aquamarine;
+    }
+    
+ }
+ @media (min-width: 1200px) {
+    #elena{
+        max-width: 50%;
+        
+    }
+    .p-2{
+        justify-content: center;
+    }
+    .p-2,h5{
+        margin-top: 1em;
+    }
+ }

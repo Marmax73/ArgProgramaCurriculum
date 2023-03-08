@@ -1,0 +1,22 @@
+
+
+img {
+    width: 100%;
+    height: auto;
+    border: solid 2px var(--border-boton);
+    padding: 3px;
+    margin: auto;
+}
+figcaption {
+    margin: auto;
+}
+
+/* // Dispositivos medianos (tabletas, 768px y más)
+@media (min-width: 768px) { 
+    img{
+        width: 7em;
+    }
+} */
+
+/* // `lg` se aplica a dispositivos medium (tabletas, menos de 992px) */
+/* @media (max-width: 991.98px) { img {width: 30%;} } */
